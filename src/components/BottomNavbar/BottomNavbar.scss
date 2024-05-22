@@ -1,7 +1,8 @@
 .bottomNavbar{
     margin: 0;
     padding: 0;
-    background: #F5F5DC;
+    background: #00091a;
+    color: #ffffff;
     font-family: Montserrat;
 
     .container{
@@ -30,7 +31,7 @@
                       display: block;
                       width: 0;
                       height: 2px;
-                      background: #FFB74D;
+                      background: #ff6600;
                       position: absolute;
                       bottom: 0;
                       left: 0;
@@ -49,7 +50,7 @@
             button{
                 cursor: pointer;
                 padding: 8px 30px;
-                background: #FFB74D;
+                background: #ff6600;
                 border: none;
                 border-radius: 100px;
                 color: #ffffff;

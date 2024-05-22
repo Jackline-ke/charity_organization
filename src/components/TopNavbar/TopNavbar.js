@@ -11,8 +11,8 @@ const TopNavbar = () => {
             <div className='logo'>
                 <img src={logo}/>
                 <div className='logoDetails'>
-                    <h4>Heartfelt<span style={{ color: '#FFB74D' }}>Hands</span></h4>
-                    <p>Touching Lives with Genuine Care</p>
+                    <h4>Heartfelt<span style={{ color: '#ff6600' }}>Hands</span></h4>
+                    <p>Touching Lives With Genuine Care</p>
                 </div>
             </div>
         </div>
