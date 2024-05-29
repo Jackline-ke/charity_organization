@@ -1,0 +1,85 @@
+.mission{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    background: #fcfaf9;
+
+    .container{
+        max-width: 100%;
+        padding: 60px 50px;
+
+        .top{
+            text-align: center;
+            max-width: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                font-size: 22px;
+                margin: 0;
+            }
+            p{
+                font-size: 12px;
+                margin: 8px 0 0 0;
+            }
+
+            .horizontal{
+                max-width: 100px;
+                height: 5px;
+                background: #ff6600;
+            }
+
+        }
+        .bottom{
+            max-width: 100%;
+            padding: 30px 100px 0 100px;
+
+            .list{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 30px;
+
+                .item{
+                    display: flex;
+                    background: #ffffff;
+                    gap: 10px;
+                    width: 100%;
+                    padding: 20px 10px;
+
+                    .icon{
+                        color: #ffffff;
+                        background: #ff6600;
+                        padding: 10px;
+                        border-radius: 100%;
+                        display: flex;
+                        width: 20px;
+                        height: 20px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .details{
+
+                        h3{
+                            margin: 0;
+                            font-size: 16px;
+                        }
+                        .text{
+                            margin: 5px 0 0 0;
+                            font-size: 12px;
+                        }
+                        .more{
+                            margin: 10px 0 0 0;
+                            color: #ff6600;
+                            font-weight: 600;
+                            font-size: 14px;
+                            cursor: pointer;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+    }
+}

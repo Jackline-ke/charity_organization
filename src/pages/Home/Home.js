@@ -5,6 +5,7 @@ import Featured from '../../components/Featured/Featured'
 import Causes from '../../components/Causes/Causes'
 import Quotes from '../../components/Quotes/Quotes'
 import Gallery from '../../components/Gallery/Gallery'
+import Mission from '../../components/Mission/Mission'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Causes/>
         <Quotes/>
         <Gallery/>
+        <Mission/>
     </div>
   )
 }
