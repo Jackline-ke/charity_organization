@@ -4,6 +4,7 @@ import Features from '../../components/Features/Features'
 import Featured from '../../components/Featured/Featured'
 import Causes from '../../components/Causes/Causes'
 import Quotes from '../../components/Quotes/Quotes'
+import Gallery from '../../components/Gallery/Gallery'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Featured/>
         <Causes/>
         <Quotes/>
+        <Gallery/>
     </div>
   )
 }
