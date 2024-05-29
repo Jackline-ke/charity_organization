@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.scss'
-import { Money } from '@mui/icons-material'
+import { AttachMoney, MonetizationOn, People, VolunteerActivismRounded } from '@mui/icons-material'
 
 const Features = () => {
   return (
@@ -13,7 +13,7 @@ const Features = () => {
                 <div className='overlay'></div>
                <div className='donationDetail'>
                     <div className='icon'>
-                        <Money/>
+                        <MonetizationOn/>
                     </div>
                     <div className='details'>
                         <h4>Donation</h4>
@@ -29,12 +29,12 @@ const Features = () => {
                 <div className='overlay'></div>
                <div className='volunteerDetail'>
                     <div className='icon'>
-                        <Money/>
+                        <People/>
                     </div>
                     <div className='details'>
                         <h4>Volunteer</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button>Donate Now</button>
+                        <button>Became A Volunteer</button>
                     </div>
                </div>
             </div>
@@ -45,12 +45,12 @@ const Features = () => {
                 <div className='overlay'></div>
                <div className='fundraiserDetail'>
                     <div className='icon'>
-                        <Money/>
+                        <VolunteerActivismRounded/>
                     </div>
                     <div className='details'>
                         <h4>Fundraiser</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button>Donate Now</button>
+                        <button>Fundraiser Now</button>
                     </div>
                </div>
             </div>
