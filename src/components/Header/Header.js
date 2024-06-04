@@ -13,10 +13,10 @@ const Header = () => {
             <div className='overlay'></div>
             <div className='details'>
                 <div className='headerDetails'>
-                    <p className='p1'>TO FEED AND EDUCATE</p>
-                    <h4 className='title'>WE NEED YOUR SUPPORT</h4>
+                    <h2 className='p1'>TO FEED AND EDUCATE</h2>
+                    <h1 className='title'>WE NEED YOUR SUPPORT</h1>
                     <div className='p2'>
-                        <p className=''>Became A Part To Change The Wolrd</p>
+                        <p className=''>Became A Part To Change The World</p>
                     </div>
                     <p className='p3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <div className='buttons'>

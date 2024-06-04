@@ -1,7 +1,6 @@
 .mission{
     padding: 0;
     margin: 0;
-    font-family: Montserrat;
     background: #fcfaf9;
 
     .container{
@@ -16,11 +15,11 @@
             align-items: center;
 
             h2{
-                font-size: 22px;
+                font-size: var(--h2-font);
                 margin: 0;
             }
             p{
-                font-size: 12px;
+                font-size: var(--h5-font);
                 margin: 8px 0 0 0;
             }
 
@@ -53,8 +52,8 @@
                         padding: 10px;
                         border-radius: 100%;
                         display: flex;
-                        width: 20px;
-                        height: 20px;
+                        width: 50px;
+                        height: 50px;
                         justify-content: center;
                         align-items: center;
                     }
@@ -62,17 +61,18 @@
 
                         h3{
                             margin: 0;
-                            font-size: 16px;
+                            font-size: var(--h3-font);
+                            font-weight: 600;
                         }
                         .text{
                             margin: 5px 0 0 0;
-                            font-size: 12px;
+                            font-size: var(--h5-font);
                         }
                         .more{
                             margin: 10px 0 0 0;
                             color: #ff6600;
                             font-weight: 600;
-                            font-size: 14px;
+                            font-size: var(--h5-font);
                             cursor: pointer;
                         }
                         

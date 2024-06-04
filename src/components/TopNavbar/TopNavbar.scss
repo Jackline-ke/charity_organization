@@ -1,9 +1,8 @@
 .topNavbar{
     padding: 0;
     margin: 0;
-    font-family: Montserrat;
-    background: #fcfaf9;
-    color: #00091a;
+    background: var(--background-color);
+    color: var(--secondary-color);
 
     .container{
         display: flex;

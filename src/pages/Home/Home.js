@@ -6,6 +6,8 @@ import Causes from '../../components/Causes/Causes'
 import Quotes from '../../components/Quotes/Quotes'
 import Gallery from '../../components/Gallery/Gallery'
 import Mission from '../../components/Mission/Mission'
+import Status from '../../components/Status/Status'
+import Volunteer from '../../components/Volunteer/Volunteer'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Quotes/>
         <Gallery/>
         <Mission/>
+        <Status/>
+        <Volunteer/>
     </div>
   )
 }
