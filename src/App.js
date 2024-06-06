@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Events from './pages/Events/Events';
 import Volunteer from './pages/Volunteer/Volunteer';
 import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='c
           ontact' element={<Contact/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
